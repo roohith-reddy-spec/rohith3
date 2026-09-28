@@ -1,0 +1,158 @@
+
+> kayden@0.1.0 build
+> next build
+
+  ▲ Next.js 14.2.35
+  - Environments: .env.local
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully
+   Linting and checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/15) ...
+   Generating static pages (3/15) 
+   Generating static pages (7/15) 
+   Generating static pages (11/15) 
+ ✓ Generating static pages (15/15)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                              Size     First Load JS
+┌ ○ /                                    14.2 kB         136 kB
+├ ○ /_not-found                          138 B          87.4 kB
+├ ○ /404                                 187 B          96.2 kB
+├ ƒ /api/categories                      0 B                0 B
+├ ƒ /api/countries                       0 B                0 B
+├ ƒ /api/genres                          0 B                0 B
+├ ƒ /api/health                          0 B                0 B
+├ ƒ /api/languages                       0 B                0 B
+├ ƒ /api/movies                          0 B                0 B
+├ ƒ /api/movies/[id]                     0 B                0 B
+├ ƒ /api/movies/slug/[slug]              0 B                0 B
+├ ƒ /api/popular                         0 B                0 B
+├ ƒ /api/products                        0 B                0 B
+├ ƒ /api/products/[slug]                 0 B                0 B
+├ ƒ /api/products/category/[slug]        0 B                0 B
+├ ƒ /api/products/search                 0 B                0 B
+├ ƒ /api/recommendations                 0 B                0 B
+├ ƒ /api/search                          0 B                0 B
+├ ƒ /api/series                          0 B                0 B
+├ ƒ /api/series/[id]                     0 B                0 B
+├ ƒ /api/top-rated                       0 B                0 B
+├ ƒ /api/trending                        0 B                0 B
+├ ƒ /genre/[slug]                        1.64 kB         117 kB
+├ ○ /genres                              187 B          96.2 kB
+├ ƒ /language/[slug]                     1.64 kB         117 kB
+├ ○ /languages                           187 B          96.2 kB
+├ ○ /login                               186 B          96.2 kB
+├ ○ /movies                              691 B           119 kB
+├ ○ /my-space                            2.32 kB         112 kB
+├ ○ /profile                             2.8 kB          104 kB
+├ ○ /register                            187 B          96.2 kB
+├ ○ /search                              3.08 kB         109 kB
+├ ○ /series                              695 B           119 kB
+├ ○ /top-rated                           672 B           119 kB
+└ ○ /trending                            662 B           119 kB
++ First Load JS shared by all            87.3 kB
+  ├ chunks/117-0a4757f4cffd8b09.js       31.7 kB
+  ├ chunks/fd9d1056-e070525407d48905.js  53.6 kB
+  └ other shared chunks (total)          1.92 kB
+
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+
+
+c:\Users\rabhi\OneDrive\Desktop\kayden>'@'' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\Users\rabhi\OneDrive\Desktop\kayden>'require' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\Users\rabhi\OneDrive\Desktop\kayden>'Sync' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\Users\rabhi\OneDrive\Desktop\kayden>'D_EXIT' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\Users\rabhi\OneDrive\Desktop\kayden>'atus' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\Users\rabhi\OneDrive\Desktop\kayden>'nt' is not recognized as an internal or external command,
+operable program or batch file.
+node:internal/modules/cjs/loader:1520
+  throw err;
+  ^
+
+Error: Cannot find module 'c:\Users\rabhi\OneDrive\Desktop\kayden\'c:\Users\rabhi\OneDrive\Desktop\kayden\buildcheck.js''
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1517:15)
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1071:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1095:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1122:12)
+    at Module._load (node:internal/modules/cjs/loader:1294:5)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+    at node:internal/main/run_main_module:33:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v24.19.0
+
+c:\Users\rabhi\OneDrive\Desktop\kayden>The syntax of the command is incorrect.
+
+c:\Users\rabhi\OneDrive\Desktop\kayden>The syntax of the command is incorrect.
+
+c:\Users\rabhi\OneDrive\Desktop\kayden>{"status":"ok","app":"KAYDEN Cinema Discovery Platform","timestamp":"2026-09-25T07:19:19.691Z","uptimeSeconds":65,"database":{"status":"connected","host":"localhost","name":"kayden-commerce"},"version":"1.0.0","environment":"development"}
+c:\Users\rabhi\OneDrive\Desktop\kayden>'owershell' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\Users\rabhi\OneDrive\Desktop\kayden>The syntax of the command is incorrect.
+
+c:\Users\rabhi\OneDrive\Desktop\kayden>
+> kayden@0.1.0 typecheck
+> tsc --noEmit
+
+
+> kayden@0.1.0 lint
+> next lint
+
+? How would you like to configure ESLint? https://nextjs.org/docs/basic-features/eslint
+[?25l❯  Strict (recommended)
+   Base
+   Cancel[2K[1A[2K[1A[2K[G[?25h
+Installing devDependencies (npm):
+- eslint@^8
+- eslint-config-next
+
+npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+npm warn deprecated rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+npm warn deprecated @humanwhocodes/config-array@0.13.0: Use @eslint/config-array instead
+npm warn deprecated glob@7.2.3: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+npm warn deprecated @humanwhocodes/object-schema@2.0.3: Use @eslint/object-schema instead
+npm warn deprecated glob@10.3.10: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+npm warn deprecated eslint@8.57.1: This version is no longer supported. Please see https://eslint.org/version-support for other options.
+
+added 282 packages, and audited 415 packages in 1m
+
+160 packages are looking for funding
+  run `npm fund` for details
+
+5 vulnerabilities (4 high, 1 critical)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+npm warn allow-scripts 2 packages have install scripts not yet covered by allowScripts:
+npm warn allow-scripts   esbuild@0.28.2 (postinstall: node install.js)
+npm warn allow-scripts   unrs-resolver@1.12.2 (postinstall: node postinstall.js)
+npm warn allow-scripts
+npm warn allow-scripts Run `npm approve-scripts --allow-scripts-pending` to review, or `npm approve-scripts <pkg>` to allow.
+
+We created the .eslintrc.json file for you and included your selected configuration.
+ ▲ ESLint has successfully been configured. Run next lint again to view warnings and errors.
+
+c:\Users\rabhi\OneDrive\Desktop\kayden>
+
+c:\Users\rabhi\OneDrive\Desktop\kayden>
